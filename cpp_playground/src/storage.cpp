@@ -108,20 +108,6 @@ int main_() {
 	cout << "I love " << object << endl;
 	return 0;
 
-	// Part 8: Mad Libs (Text Replacement): (Sometimes Broken?)
-	string color, pluralNoun, object;
-
-	cout << "Enter a Color:";
-	getline(cin, color);
-	cout << "Enter a Plural Noun:";
-	getline(cin, pluralNoun);
-	cout << "Enter a Object:";
-	getline(cin, object);
-
-	cout << "Roses are " << color << endl;
-	cout << pluralNoun << " are blue" << endl;
-	cout << "I love " << object << endl;
-
 	// Part 9: Arrays
 	int arr_nums[20] = { 4, 2, 44, 123, 5, 63, 2 }; // able to store up to 20 values
 	int arr_doubles[30];

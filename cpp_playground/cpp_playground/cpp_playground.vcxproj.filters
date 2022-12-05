@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\src\basics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="basics.cpp">
+    <ClCompile Include="..\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="storage.cpp">
+    <ClCompile Include="..\src\storage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="basics.hpp">
+    <ClInclude Include="..\inc\basics.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
