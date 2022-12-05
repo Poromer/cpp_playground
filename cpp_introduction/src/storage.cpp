@@ -206,4 +206,47 @@ int main_() {
 	// Part 18: Exponent Function
 	cout << exponent_Int(2, 3);
 
+	// Part 19: 2D Arrays & Nested Loops
+	int numberGrid[4][2] = { {1,2},
+							{2,4},
+							{2,7},
+							{9,}
+	};
+
+	for (int i = 0; i < 4; ++i) {
+		for (int k = 0; k < 2; ++k) {
+			cout << numberGrid[i][k];
+			cout << " | ";
+		}
+		cout << "\n";
+	}
+
+	// Part 20: Pointers
+	int p20_age = 19;
+	double p20_gpa = 2.7;
+	string p20_name = "Mike";
+
+	cout << &p20_age << endl; // Printing out the memory address where value of p20_age is stored
+	cout << *&p20_age << endl; // dereferencing the memory address to get the value
+
+	double* pGpa = &p20_gpa; // double pointer
+	cout << *pGpa << endl; // dereferencing the memory address to get the value
+
+	// Part 21: Classes & Objects
+	// Book Class defination is located at basics.hpp
+	// @note: public vs private in classes? usecases?
+	Book book1;
+	book1.title = "Harry Potter";
+	book1.author = "JK Rowling";
+	book1.pages = 500;
+	cout << book1.title << endl;
+
+	// Part 22: Constructors
+	Book_With_Constructor book2 = Book_With_Constructor("Hunger Games", "Someone", 264);
+	cout << book2.title << endl;
+	Book_With_Constructor book3;
+	cout << book3.title << endl;
+
+
+
 }
