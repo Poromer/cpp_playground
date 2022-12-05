@@ -247,6 +247,28 @@ int main_() {
 	Book_With_Constructor book3;
 	cout << book3.title << endl;
 
+	// Part 23: Object Functions
+	// Making use of class "Student" located at basics.hpp
+	Student student1("Jim", "Businesss", 2.4);
+	Student student2("Bean", "Military History", 5.0);
+	cout << student2.hasHonors(); // Function is defined in the "Student" Class
 
+	// Part 24: Getters & Setters
+	// Making use of class "Movie" located at basics.hpp
+	Movie kappa("The Kappas", "Boof Boss", "PG-13");
+	//cout << kappa.rating; // Rating parameter cannot be access when its in private as this code is outside the class
+	kappa.setRating("R21");
+	cout << kappa.getRating() << endl;
+	kappa.setRating("monkehehehehe");
+	cout << kappa.getRating() << endl;
 
+	// Part 25: Inheritance
+	// Making use of class "Chef" & "ItalianChef" located at basics.hpp
+	Chef chef;
+	chef.makeChicken();
+	chef.makeSpecialDish();
+	ItalianChef italianChef;
+	italianChef.makeSalad();
+	italianChef.makePizza();
+	italianChef.makeSpecialDish();
 }
