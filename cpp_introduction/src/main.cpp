@@ -3,7 +3,8 @@
 @file_name: main.cpp
 @date: 5/12/22022
 @brief: Learning the basics of C++ using "C++ Tutorial for Beginners" video on YouTube
-@timestamp: 1:20:51 (Functions)
+@timestamp: 2:03:31 (Switch Statements)
+@link: https://www.youtube.com/watch?v=vLnPwxZdW4Y&list=PLWtGt_6jXhSW7cd9VVj-vUUBz0KlaLuFX&index=7&t=16s&ab_channel=freeCodeCamp.org
 */
 
 

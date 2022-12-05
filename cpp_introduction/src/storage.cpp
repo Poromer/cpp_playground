@@ -139,4 +139,31 @@ int main_() {
 	cout << getMax_Int(1, 3) << endl;
 	cout << getMin_Int(1, 3) << endl;
 
+	// Part 13: Caculator Ver 2
+	int p13_num1, p13_num2;
+	char op;
+
+	cout << "Enter the Operation: ";
+	cin >> op;
+	cout << "Enter Number 1: ";
+	cin >> p13_num1;
+	cout << "Enter Number 2: ";
+	cin >> p13_num2;
+
+	if (op == '+') {
+		cout << p13_num1 + p13_num2 << endl;
+	}
+	else if (op == '-') {
+		cout << p13_num1 - p13_num2 << endl;
+	}
+	else if (op == '*') {
+		cout << p13_num1 * p13_num2 << endl;
+	}
+	else if (op == '/') {
+		cout << p13_num1 / p13_num2 << endl;
+	}
+	else {
+		cout << "Error" << endl;
+	}
+
 }
