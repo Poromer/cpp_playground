@@ -166,4 +166,44 @@ int main_() {
 		cout << "Error" << endl;
 	}
 
+	// Part 14: Switch Statement
+	cout << getDayOfWeek(1);
+
+	// Part 15: While Loop
+	int p15_count = 0;
+	while (p15_count <= 12) {
+		cout << p15_count << ": ";
+		p15_count % 2 ? cout << "Odd\n" : cout << "Even\n";
+		p15_count++;
+	}
+
+	// Part 16: Guessing Game
+	int secretNum = 7;
+	int guess;
+
+	while (true) {
+		cout << "Enter your guess: ";
+		cin >> guess;
+		if (guess == secretNum) {
+			return 0;
+		}
+		else if (guess > secretNum) {
+			cout << "Your number is higher then the secret number\n";
+		}
+		else {
+			cout << "Your number is lower then the secret number\n";
+		}
+	}
+	cout << "Correct!\n";
+
+	// Part 17: For loop
+	int p17_numArr[10] = { 1,523,42,654,12,51,77,21 };
+
+	for (int i = 0; i < sizeof(p17_numArr) / sizeof(int); i++) { //sizeof(p17_numArr) / sizeof(int) gets the num of element in array
+		cout << p17_numArr[i] << "\n";
+	}
+
+	// Part 18: Exponent Function
+	cout << exponent_Int(2, 3);
+
 }
