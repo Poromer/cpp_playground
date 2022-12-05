@@ -17,9 +17,6 @@
 using namespace std;
 
 int main() {
-	print_helloWorld();
-	// Part 10: Functions
-
 
 	return 0;
 }

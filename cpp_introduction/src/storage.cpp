@@ -9,8 +9,6 @@ using namespace std;
 int main_() {
 
 	// Part 1: Hello World & Printing a Shape
-	print_helloWorld();
-	print_triangle();
 	cout << "Does \\n work? \nnext line" << endl; // @note: "endl" means "end line" and "cout" means "c out", endl prints outs a newline
 	cout << endl;
 
@@ -118,4 +116,27 @@ int main_() {
 
 	arr_nums[2] = 3;
 	cout << arr_nums[2] << endl;
+
+	// Part 10: Functions & Return Statement
+	print_helloWorld();
+	print_triangle();
+	cout << addIntNumbers(10, 20) << endl;
+
+	// Part 11: If Conditional Statements
+	bool isMale = true;
+	bool isTall = true;
+
+	if (isMale && isTall) {
+		cout << "You are a Male and tall" << endl;
+	}
+	else if (isMale && !isTall) {
+		cout << "You are a Male but not tall" << endl;
+	}
+	else {
+		cout << "You are not Male" << endl;
+	}
+	// Part 12 If Conditional Statements (Cont)
+	cout << getMax_Int(1, 3) << endl;
+	cout << getMin_Int(1, 3) << endl;
+
 }
