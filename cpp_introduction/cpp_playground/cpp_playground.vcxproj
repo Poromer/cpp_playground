@@ -135,7 +135,6 @@
   <ItemGroup>
     <ClCompile Include="..\src\basics.cpp" />
     <ClCompile Include="..\src\main.cpp" />
-    <ClCompile Include="..\src\storage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\inc\basics.hpp" />
