@@ -17,8 +17,24 @@
 
 using namespace std;
 
+std::string reverse_words(std::string str)
+{
+	char temp;
+	int strlen = str.length();
+	--strlen;
+	for (int i = 0; i < strlen; ++i) {
+		temp = str[i];
+		str[i] = str[strlen];
+		str[strlen] = temp;
+		--strlen;
+	}
+	return str;
+}
+
 
 int main() {
+	std::cout<<reverse_words("The quick brown fox jumps over the lazy dog.") << std::endl;
+
 
 	// Part 1: Hello World & Printing a Shape
 	cout << "Does \\n work? \nnext line" << endl; // @note: "endl" means "end line" and "cout" means "c out", endl prints outs a newline
